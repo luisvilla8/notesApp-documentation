@@ -1,0 +1,14 @@
+Reglas de negocio:
+1. Puede hacer CRUD, filtrar, ordenar y eliminar notas = Cualquier usuario y Usuario registrado
+2. Puede hacer CRUD, filtrar, ordenar y eliminar todos = Cualquier usuario y Usuario registrado
+3. Planear notas como recordatorios para futuras fechas = Usuario registrado
+4. Puede marcar como importante notas y todos = Usuario registrado
+5. Puede ver frase random al entrar a la app = Cualquier usuario
+6. Puede cambiar entre modo oscuro / claro = Cualquier usuario
+7. Puede formar rutina diaria de todos = Usuario registrado
+
+###########################################################
+NORMALIZACIÓN DE BASE DE DATOS
+1. desglosar campos hasta que sean datos atómicos - 
+2. campos deben tener una dependencia funcional completa al id de su tabla, es evitar redundancia
+3. no debe existir una dependencia funcional TRANSITIVA al id de su tabla, es decir que cada campo depende del id de la tabla y no de unos de sus campos
